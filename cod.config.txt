@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Script to generate 100 configuration files in the Minecraft directory
+
+for i in {1..100}; do
+
+    touch cod/config_$i.txt
+
+done
